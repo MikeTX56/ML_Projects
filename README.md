@@ -1,5 +1,5 @@
 [![wakatime](https://wakatime.com/badge/github/MikeTX56/ML-A-to-Z.svg)](https://wakatime.com/badge/github/MikeTX56/ML-A-to-Z)
-# **Machine Learning A-to-Z**
+# **Machine Learning Projects**
 
 This repository documents a complete, hands-on journey through machine
 learning.\
