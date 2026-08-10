@@ -8,6 +8,11 @@ experiments, and practice notebooks.\
 The goal is to build a strong foundation in both the practical and
 theoretical sides of machine learning.
 
+> 📍 **Full learning path:** See [ROADMAP.md](./ROADMAP.md) — a structured,
+> phase-by-phase guide covering ML/DS mastery, electronics from first
+> principles, embedded ML (TinyML), and building a business around these
+> skills.
+
 ------------------------------------------------------------------------
 
 ## **Repository Structure**
@@ -24,10 +29,15 @@ theoretical sides of machine learning.
     │   │   ├── spam_detection/
     |   |   └── titanic_survivors/
     │   │
-    │   └── linear_regression/
-    │       ├── bike_sharing/
-    |       ├── car_price_predition/
-    │       └── house_price_prediction/
+    │   ├── linear_regression/
+    │   │   ├── bike_sharing/
+    |   |   ├── car_price_predition/
+    │   │   └── house_price_prediction/
+    │   │
+    │   ├── clustering/          (Phase 2 — unsupervised learning)
+    │   ├── signal_processing/   (Phase 3 — DSP with Python)
+    │   ├── tinyml/              (Phase 4 — embedded ML on MCUs)
+    │   └── deep_learning/       (Phase 5 — CNNs, RNNs, Transformers)
     │
     ├── math/
     │   └── linear_regression/
@@ -37,6 +47,7 @@ theoretical sides of machine learning.
     ├── experiments/
     │   (scratch work, quick tests, temporary notebooks)
     │
+    ├── ROADMAP.md   ← start here for the complete learning path
     └── README.md
 
 **Folder meanings:**
@@ -89,10 +100,13 @@ foundation for more advanced topics.
 
 ## **Future Additions**
 
--   Logistic regression math notes\
+See [ROADMAP.md](./ROADMAP.md) for the full plan. High-level upcoming work:
+
+-   Unsupervised learning (clustering, PCA, autoencoders)\
 -   Regularization methods (Ridge & Lasso)\
--   Decision trees and ensemble models\
--   Feature selection techniques\
--   Time-series analysis\
--   Introductory deep learning\
--   Deployment examples
+-   Decision trees and ensemble models (XGBoost, LightGBM)\
+-   Signal processing with Python (FFT, filters, spectrograms)\
+-   TinyML / embedded ML on microcontrollers\
+-   Deep learning (CNNs, RNNs, Transformers)\
+-   MLOps basics (experiment tracking, model serving)\
+-   Deployment examples (FastAPI, Docker)
